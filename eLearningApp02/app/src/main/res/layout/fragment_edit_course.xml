@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit Course"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:paddingBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/etCourseTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Course Title"
+        android:padding="10dp"
+        android:background="@android:drawable/editbox_background"/>
+
+    <EditText
+        android:id="@+id/etCourseDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Course Description"
+        android:padding="10dp"
+        android:background="@android:drawable/editbox_background"
+        android:minLines="3"
+        android:maxLines="5"/>
+
+    <Button
+        android:id="@+id/btnUploadMaterial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload Material" />
+
+    <EditText
+        android:id="@+id/etFilePath"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Material File Path"
+        android:focusable="false"
+        android:clickable="true" />
+
+
+    <Button
+        android:id="@+id/btnUpdateCourse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Course"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:textColor="@android:color/white"/>
+
+
+
+</LinearLayout>

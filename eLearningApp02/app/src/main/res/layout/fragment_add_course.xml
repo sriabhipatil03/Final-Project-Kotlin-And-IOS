@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Course"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/etCourseTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Course Title"
+        android:inputType="text"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/etCourseDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Course Description"
+        android:inputType="textMultiLine"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btnUploadFile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upload File (PDF, PPT, Video)"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/tvSelectedFile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No file selected"
+        android:layout_marginTop="5dp"/>
+
+    <Button
+        android:id="@+id/btnSaveCourse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Course"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>
